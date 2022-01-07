@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover {
+            color: red;
+            background-color: seagreen;
+
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .middle-person:focus {
+            color: blue;
+            font-weight: 700;
+
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+        li:last-child {
+            background-color: cornflowerblue;
+        }
+
+        li:nth-child(2n+1) {
+            color: crimson;
+        }
+
+        li:nth-child(2n) {
+            background-color: darkgray;
+        }
+
+        h3::before {
+            content: 'Hello ';
+        }
+
+        .special::after {
+            content: ' gelo';
+            background-color: darkkhaki;
+            font-size: 39px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is for testing psuedo work</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+
+    <br>
+
+    <a href="https://monkeytype.com/">google e jao</a>
+    <a href="web.programminghero">programming hero te jao</a>
+    <br>
+
+    <h3>middle size hedaer -1</h3>
+    <h3 class="special">middle size hedaer -2</h3>
+    <h3>middle size hedaer -3</h3>
+    <h3>middle size hedaer -4</h3>
+    <h3 class="special">middle size hedaer -5</h3>
+    <h3>middle size hedaer -6</h3>
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Calia</li>
+        <li>Jalai</li>
+        <li>Charia</li>
+    </ul>
+</body>
+
+</html>
